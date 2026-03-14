@@ -1,0 +1,25 @@
+{
+  "name": "prod_voiceagent",
+  "version": "1.0.0",
+  "description": "Voice agent architecture: a browser client that streams audio over WebRTC (Web Real-Time Communication), a backend that mints short-lived session tokens, an agent runtime that orchestrates speech and tools safely, and generates post-call artifacts for downstream workflows.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harshitrwt/Prod_voiceAgent.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/harshitrwt/Prod_voiceAgent/issues"
+  },
+  "homepage": "https://github.com/harshitrwt/Prod_voiceAgent#readme",
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1"
+  }
+}
